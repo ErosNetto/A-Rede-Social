@@ -9,7 +9,7 @@ const userCreateValidation = () => {
       .withMessage("O nome precisa ter no mínimo 3 caracteres."),
     body("email")
       .isString()
-      .withMessage("o e-mail é obrigatório.")
+      .withMessage("O e-mail é obrigatório.")
       .isEmail()
       .withMessage("Insira um e-mail valido."),
     body("password")
@@ -29,6 +29,18 @@ const userCreateValidation = () => {
   ];
 };
 
+const loginValidation = () => {
+  return [
+    body("email")
+      .isString()
+      .withMessage("O e-mail é obrigatório.")
+      .isEmail()
+      .withMessage("Insira um e-mail valido."),
+    body("password").isString().withMessage("A senha é obrigatório"),
+  ];
+};
+
 module.exports = {
   userCreateValidation,
+  loginValidation,
 };
