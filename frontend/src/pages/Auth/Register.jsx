@@ -12,7 +12,7 @@ const Register = () => {
   };
 
   return (
-    <div>
+    <div id="register">
       <h2>A Rede Social</h2>
       <p className="subtitle">Cadastre-se para ver as fotos dos seus amigos.</p>
       <form onSubmit={handleSubmit}>
@@ -22,6 +22,9 @@ const Register = () => {
         <input type="password" placeholder="Confirme a senha" />
         <input type="submit" value="Cadastrar" />
       </form>
+      <p>
+        Já tem conta? <Link to="/login">Clique aqui.</Link>
+      </p>
     </div>
   );
 };
