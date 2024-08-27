@@ -20,7 +20,7 @@ const {
   photoUpdateValidation,
   commentValidation,
 } = require("../middlewares/photoValidation");
-const authGuard = require("../middlewares/authGuard");
+const authGuard = require("../middlewares/AuthGuard");
 const validate = require("../middlewares/handleValidation");
 const { imageUpload } = require("../middlewares/imageUpload");
 
