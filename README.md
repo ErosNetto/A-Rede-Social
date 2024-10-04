@@ -2,6 +2,8 @@
 
 **A Rede Social** é um projeto que oferece uma experiência semelhante à do Instagram, desenvolvido com React. Este sistema completo abrange tanto o backend quanto o frontend, permitindo que os usuários criem suas contas, publiquem fotos e explorem as imagens compartilhadas por outros usuários.
 
+![Imagem do A Rede Social](./readmeImg/a-rede-social.webp)
+
 ## 🚀 Funcionalidades
 
 - **Criação de Conta e Login de Usuário:** Permita que os usuários se registrem e acessem suas contas.

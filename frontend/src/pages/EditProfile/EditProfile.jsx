@@ -10,7 +10,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { profile, resetMessage, updateProfile } from "../../slices/userSlice";
 
 // Components
-import Message from "../../components/Message";
+import Message from "../../components/Message/Message";
 
 const EditProfile = () => {
   const dispatch = useDispatch();

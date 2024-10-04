@@ -3,7 +3,7 @@ import "./Profile.css";
 import { uploads } from "../../utils/config";
 
 // Components
-import Message from "../../components/Message";
+import Message from "../../components/Message/Message";
 import { Link } from "react-router-dom";
 import { BsFillEyeFill, BsPencilFill, BsXLg } from "react-icons/bs";
 
