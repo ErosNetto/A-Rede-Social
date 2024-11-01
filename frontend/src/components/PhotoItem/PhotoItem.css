@@ -1,5 +1,14 @@
-.photo-item img {
+.photo-item {
   width: 100%;
+}
+
+.photo-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-img-container img {
+  width: 50%;
 }
 
 #home .photo-item h2 {
