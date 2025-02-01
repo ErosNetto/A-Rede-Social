@@ -38,3 +38,5 @@ app.use(router);
 app.listen(port, () => {
   console.log(`App rodando na porta ${port}`);
 });
+
+// TESTANDo
